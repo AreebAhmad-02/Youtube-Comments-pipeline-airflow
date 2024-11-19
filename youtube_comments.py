@@ -31,7 +31,7 @@ def run_yt_comments_pipeline():
 
         api_service_name = "youtube"
         api_version = "v3"
-        DEVELOPER_KEY = "AIzaSyAKkpptOje50AWqLHg9GKBscjc-G6tu2Fo"
+        DEVELOPER_KEY = "" # secure the id from the gcp console
         comments_list = []
 
         youtube = googleapiclient.discovery.build(
@@ -49,6 +49,7 @@ def run_yt_comments_pipeline():
         while response.get('nextPageToken', None):
             request = youtube.commentThreads().list(
                 part='id,replies,snippet',
+                # youtube video id from which comments are to be extracted 
                 videoId="q8q3OFFfY6c",
                 pageToken=response['nextPageToken']
             )
