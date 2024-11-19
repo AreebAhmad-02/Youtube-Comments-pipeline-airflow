@@ -1,36 +1,4 @@
 sudo apt-get update
-sudo apt install python3-pip
-
-Update Your Instance
-
-
-sudo apt update && sudo apt upgrade -y
-3. Install Required Dependencies
-Airflow requires Python and some additional packages:
-
-
-sudo apt install -y python3-pip python3-venv libpq-dev
-
-4. Create a Virtual Environment
-To avoid interfering with the system Python environment, create an isolated virtual environment for Airflow:
-
-python3 -m venv airflow-venv
-
-Activate the virtual environment:
-
-
-source airflow-venv/bin/activate
-5. Install Apache Airflow
-Install Airflow within the virtual environment:
-
-pip install apache-airflow
-
-6. Verify the Installation
-Ensure Airflow was installed correctly:
-
-airflow version
-
-
 pip install pandas 
 pip install s3fs
 pip install google-api-python-client
