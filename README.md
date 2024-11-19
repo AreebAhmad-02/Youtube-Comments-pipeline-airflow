@@ -7,7 +7,6 @@ here is the guide for that
 https://developers.google.com/youtube/v3/getting-started
 
 ![alt text](screenshots/image.png)
-
 download the keys
 ![alt text](screenshots/image-1.png)
 
