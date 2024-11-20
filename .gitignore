@@ -1,7 +1,7 @@
 .env
+airflowsmallkey2.pem
 airflowec2key.pem
 DEvenv
 lmao.csv
-.gitignore
-airflowsmallkey2.pem
 flowdiagram.drawio
+.gitignore
