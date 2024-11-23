@@ -19,7 +19,7 @@
 <ul>
     <li><a href="https://developers.google.com/youtube/v3/getting-started">YouTube API Guide</a></li>
 </ul>
-<h3>Getting certificate to connect to EC2</h3>
+<h3>Getting certificate to connect to EC2 via SSH</h3>
 <p>After getting your API key, download the keys file:</p>
 <img src="screenshots/image.png" alt="API key image">
 <img src="screenshots/image-1.png" alt="Download API key image">
