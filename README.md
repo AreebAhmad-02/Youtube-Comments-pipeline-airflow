@@ -19,9 +19,12 @@
 <ul>
     <li><a href="https://developers.google.com/youtube/v3/getting-started">YouTube API Guide</a></li>
 </ul>
+<h4>In the <code>youtube_comments.py</code> file assign the developer key to the DEVELOPER_KEY variable in the <code>seek_data()</code> function</h4>
 <h3>Getting certificate to connect to EC2 via SSH</h3>
 <p>After getting your API key, download the keys file:</p>
 <img src="screenshots/image.png" alt="API key image">
+<h3>Configure Network traffic for your EC2 instance</h3>
+Note that we are initially allowing the traffic from everywhere (from every Ip on the internet)
 <img src="screenshots/image-1.png" alt="Download API key image">
 
 <h3>2. Connect to Airflow Instance via SSH</h3>
